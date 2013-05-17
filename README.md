@@ -22,11 +22,13 @@ The module exports both heap and cpu method.
 
 the first called `heap(filepath)` that
 writes a  file to the args directory.
-  ndump.heap(filepath);
+
+    ndump.heap(filepath);
  
  the second  called  `cpu(filepath,times)` that
 writes a  file to the args directory.
-  ndump.cpu(filepath,times);
+
+    ndump.cpu(filepath,times);
 
 ### Inspecting the snapshot
 
