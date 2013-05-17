@@ -1,0 +1,24 @@
+{
+  "name": "ndump",
+  "version": "0.0.1",
+  "description": "Make a dump of the V8 heap and cpu for later inspection.",
+  "homepage": "https://github.com/piaohai/ndump",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/piaohai/ndump.git"
+  },
+  "main": "include.js",
+  "licenses": [
+    {
+      "type": "wtfpl"
+    }
+  ],
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  }
+}
+ 
