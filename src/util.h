@@ -5,7 +5,9 @@
 
 #include <node.h>
 #include <stdlib.h>
+#include <cstring>
 
+using namespace std;
 using namespace v8;
 using namespace node;
 

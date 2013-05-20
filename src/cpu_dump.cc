@@ -15,6 +15,7 @@ namespace netease {
         NODE_SET_METHOD(obj, "getProfile", CpuDump::GetProfile);
         NODE_SET_METHOD(obj, "start", CpuDump::StartProfiling);
         NODE_SET_METHOD(obj, "stop", CpuDump::StopProfiling);
+        NODE_SET_METHOD(obj, "deleteAll", CpuDump::DeleteAllProfiles);
 
         target->Set(String::NewSymbol("cpu"), obj);
     }

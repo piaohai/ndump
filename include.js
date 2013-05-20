@@ -12,6 +12,7 @@ ndump.cpu = function(file,times){
 	_ndump.cpu.start(file);
 	setTimeout(function(){
 		fs.writeFileSync(file,JSON.stringify(_ndump.cpu.stop(file)));
+		_ndump.cpu.deleteAll();
 	},times)
 }
 
